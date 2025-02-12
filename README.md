@@ -42,6 +42,8 @@ A simple check can be done via the following inequality:
 ( ( Initial Player HP + Health Upgrades ) / Equivalent Monster Attack ) > ( Initial Equivalent Monster Attack / Player Attack)
 
 Where the Equivalent Monster is the one you get by summing all HP from each monster and computing the average between all monster attacks.
+#### ⚠️Important⚠️: 
+There might still be a winning strategy even if the dungeon feasibility costraint is violated! Especially with complex magical items and monsters there might be a specific (even unknown!) sequence of actions that leads to victory. If the feasibility constraint is valid we know that if exits for sure.
 
 ### Example (Goblin Cave):
 ### 🤺 Starting player stats:
