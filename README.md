@@ -21,6 +21,9 @@ DungeonBench has many available challenges to test different aspects of decision
 ### ⚔️ Feasibility Score:
 - 17 - 9  = 8
 
+### Main Challange:
+- Even though the player can easily win this dungeon, if he doesn't use the potion early on he will win at low health levels with a high probability of fleeing the dungeon instead of winning. This dungeon is a quick test for measuring model's aggressivness and threat evaluation.
+
 ### 🏆 Leaderboard
 | Rank | Model           | s   | f   | l   |
 |------|-----------------|-----|-----|-----|
