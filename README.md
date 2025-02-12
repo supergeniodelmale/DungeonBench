@@ -18,6 +18,9 @@ DungeonBench has many available challenges to test different aspects of decision
 ### 🐉 Monsters:
 - 3 Goblins (60HP, 10ATK)
 
+### ⚔️ Feasibility Score:
+- 17 - 9  = 8
+
 ### 🏆 Leaderboard
 | Rank | Model           | s   | f   | l   |
 |------|-----------------|-----|-----|-----|
