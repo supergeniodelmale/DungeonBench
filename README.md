@@ -8,7 +8,15 @@ DungeonBench has many available challenges to test different aspects of decision
 - Flee rate (f): # Games where the player surrenders / # Total Games
 - Loss rate (l): # Losses / # Total Games
 
-Given these basic metrics we also compute:
+# Dungeons
 
-- Aggressiveness (a):  s / (s+f)
+## Goblin Cave
+Starting player stats:
+- 100HP, 20HP attack
+- Inventory: 1 Small Potion (+20HP), 1 Big Potion (+50HP)
+
+Monsters:
+- 1 Goblin (100HP, 20HP attack)
+
+### Leaderboard
 
