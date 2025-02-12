@@ -16,10 +16,40 @@ DungeonBench has many available challenges to test different aspects of decision
 - Inventory: 1 Small Potion (+20HP), 1 Big Potion (+50HP)
 
 ### 🐉 Monsters:
-- 3 Goblins (60HP, 20ATK)
+- 3 Goblins (60HP, 10ATK)
 
 ### 🏆 Leaderboard
 | Rank | Model           | s   | f   | l   |
 |------|-----------------|-----|-----|-----|
 | 1    | gpt-3.5-turbo   | 62% | 38% |  0% |
 | 2    | gpt-4o          |     |     |     |
+
+# 📫 How to Submit Your Challenge
+## Necessary elements:
+- Starting player stats
+- Monster list
+
+## Feasibility:
+For a dungeon to be valid there must be at least 1 winning strategy which if followed step by step leads to victory everytime. It is irrelevant if it is the only one in a sea of possibilities but you must prove the there is at least one.
+A simple check can be done via the following inequality:
+
+( Initial Player HP + Health Upgrades / Equivalent Monster Attack) > ( Initial Equivalent Monster Attack / Player Attack)
+
+Where the Equivalent Monster is the one you get by summing all HP from each monster and computing the average between all monster attacks.
+
+### Example (Goblin Cave):
+### 🤺 Starting player stats:
+- 100HP, 20ATK
+- Inventory: 1 Small Potion (+20HP), 1 Big Potion (+50HP)
+
+### 🐉 Monsters:
+- 3 Goblins (60HP, 10ATK)
+
+### Equivalent Monsters:
+- 1 Monster (180HP, 10ATK)
+
+### Feasibility:
+( 170HP / 10ATK ) = 17
+( 180HP / 20ATK) = 9
+17 > 9 
+VALID!
