@@ -33,7 +33,7 @@ DungeonBench has many available challenges to test different aspects of decision
 For a dungeon to be valid there must be at least 1 winning strategy which if followed step by step leads to victory everytime. It is irrelevant if it is the only one in a sea of possibilities but you must prove the there is at least one.
 A simple check can be done via the following inequality:
 
-( Initial Player HP + Health Upgrades / Equivalent Monster Attack) > ( Initial Equivalent Monster Attack / Player Attack)
+( ( Initial Player HP + Health Upgrades ) / Equivalent Monster Attack ) > ( Initial Equivalent Monster Attack / Player Attack)
 
 Where the Equivalent Monster is the one you get by summing all HP from each monster and computing the average between all monster attacks.
 
