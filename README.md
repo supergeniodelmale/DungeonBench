@@ -1,4 +1,4 @@
-# DungeonBench
+# 🐉 DungeonBench 🏰
 DungeonBench is a dungeon-crawl-like game designed to benchmark the reasoning abilities of Large Language Models. It provides a controlled yet dynamic environment where models must navigate challenges, solve puzzles, and engage in strategic decision-making. Models are tested and benchmarked by their winning rates in community-made dungeons with different difficulty levels. All users are welcome to suggest new challenges by opening new discussion threads. We will then implement and test models on the proposed dungeon and publish the results.
 
 ## How does it work?
@@ -8,15 +8,18 @@ DungeonBench has many available challenges to test different aspects of decision
 - Flee rate (f): # Games where the player surrenders / # Total Games
 - Loss rate (l): # Losses / # Total Games
 
-# Dungeons
+# 🏰 Dungeons
 
 ## Goblin Cave
-Starting player stats:
+### 🤺 Starting player stats:
 - 100HP, 20HP attack
 - Inventory: 1 Small Potion (+20HP), 1 Big Potion (+50HP)
 
-Monsters:
-- 1 Goblin (100HP, 20HP attack)
+### 🐉 Monsters:
+- 3 Goblins (60HP, 20HP attack)
 
-### Leaderboard
-
+### 🏆 Leaderboard
+| Rank | Model           | s   | f   | l   |
+|------|-----------------|-----|-----|-----|
+| 1    | gpt-3.5-turbo   | 62% | 38% |  0% |
+| 2    | gpt-4o          |     |     |     |
