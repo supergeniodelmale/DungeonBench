@@ -12,11 +12,11 @@ DungeonBench has many available challenges to test different aspects of decision
 
 ## Goblin Cave
 ### 🤺 Starting player stats:
-- 100HP, 20HP attack
+- 100HP, 20ATK
 - Inventory: 1 Small Potion (+20HP), 1 Big Potion (+50HP)
 
 ### 🐉 Monsters:
-- 3 Goblins (60HP, 20HP attack)
+- 3 Goblins (60HP, 20ATK)
 
 ### 🏆 Leaderboard
 | Rank | Model           | s   | f   | l   |
