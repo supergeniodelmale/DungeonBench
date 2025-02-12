@@ -49,7 +49,4 @@ Where the Equivalent Monster is the one you get by summing all HP from each mons
 - 1 Monster (180HP, 10ATK)
 
 ### Feasibility:
-( 170HP / 10ATK ) = 17
-( 180HP / 20ATK) = 9
-17 > 9 
-VALID!
+( 170HP / 10ATK ) = 17 > 9 = ( 180HP / 20ATK)
